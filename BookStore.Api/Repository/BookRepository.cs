@@ -36,9 +36,6 @@ namespace BookStore.Api.Repository
             var records = await _context.Books.ToListAsync();
             return _mapper.Map<List<BookModel>>(records);
 
-
-
-
         }
 
         public async Task<BookModel> GetBookByIdAsync(int bookId)

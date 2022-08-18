@@ -32,6 +32,7 @@
       "BookStore.Api/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "3.1.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.28",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.10",
           "Microsoft.AspNetCore.JsonPatch": "3.1.10",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.10",
@@ -357,6 +358,20 @@
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.28": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "3.1.28.0",
+            "fileVersion": "3.100.2822.36402"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.10": {
@@ -3210,6 +3225,13 @@
       "sha512": "sha512-IWvYn9BMBrIL7bRfDBhkmEtYmTlbxjPDGfhgOEJFI3vvdctfn+wgtZNDu1NhZvc63dB+m7XIf1HxCm1SsNMizA==",
       "path": "automapper.extensions.microsoft.dependencyinjection/3.1.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CJm8ONdSVt1+RMWsl0yh3OR5cDuAkU1tpWU+HgNUmom9kHMhAC4FdyqtDagtdWTfoFfS3F9UK72quCQ2kBXdJA==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.28",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.3.1.28.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.10": {
       "type": "package",

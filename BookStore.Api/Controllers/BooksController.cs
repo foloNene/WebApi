@@ -1,5 +1,6 @@
 ﻿using BookStore.Api.Models;
 using BookStore.Api.Repository;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
@@ -10,7 +11,10 @@ namespace BookStore.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
+
+    //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+
     public class BooksController : ControllerBase
     {
         private readonly IBookRepository _bookRepository;
@@ -20,6 +24,7 @@ namespace BookStore.Api.Controllers
             _bookRepository = bookRepository;
         }
 
+       
         [HttpGet("")]
         public async Task<IActionResult> GetAllBook()
         {

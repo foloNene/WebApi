@@ -70,3 +70,4 @@ C:\Users\USER\Desktop\Project\BookStore.Api\BookStore.Api\bin\Debug\netcoreapp3.
 C:\Users\USER\Desktop\Project\BookStore.Api\BookStore.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\USER\Desktop\Project\BookStore.Api\BookStore.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\USER\Desktop\Project\BookStore.Api\BookStore.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\USER\Desktop\Project\BookStore.Api\BookStore.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
